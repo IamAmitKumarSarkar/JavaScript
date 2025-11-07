@@ -34,9 +34,9 @@ async function loginUser() {
     try {
         await userIdVerification("amit@gmail.com");
         await passwordVerification("Amit@2004");
-        console.log("🎉 Login Successful!");
+        console.log(" Login Successful!");
     } catch (err) {
-        console.log("🚫 Login Failed:", err);
+        console.log(" Login Failed:", err);
     }
 }
 
